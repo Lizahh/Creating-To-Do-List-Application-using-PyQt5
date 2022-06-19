@@ -29,9 +29,7 @@
 
 # Usage:
 
-## Run the file app.py
-
-  This file will create the main application window, with options showing for adding 'New Task', 'Done' with the remaining tasks, 'Undone' the finished task etc. 
+  This file 'app.py' will create the main application window, with options showing for adding 'New Task', 'Done' with the remaining tasks, 'Undone' the finished task etc. 
   
   * ### Creating New Task:
   This function creates a new task. It works by clicking on the 'New Task' button which pops-up a new dialog box for the user. The user either enters the activity name & clicks 'OK' or cancel the action by clicking on 'cancel'. If the user presses OK, the activity is added to the 'Remaining Tasks' pane. 
@@ -40,11 +38,36 @@
 </p>
   
   * ### Adding New Task in Remaining Tasks Pane:
-  The entered activity task is inserted to the Remaining Tasks pane and  
+  The new entered activity/task is inserted to the Remaining Tasks pane. The user can enter as much tasks he wants.
+    <p align="center" width="80%">
+    <img src="https://user-images.githubusercontent.com/44564025/174498872-83874616-928f-44cb-9844-f88fc661bf0b.png">
+</p>
+
+  
   * ### Marking a Task as Done:
-  * ### Finishing All Tasks:
-  * ### Setting a Task as Undone:
+  A task will be considered as done once the Done will be clicked. The user selects the task and clicks the Done, the task automatically shifts to Finished Tasks pane.
+   <p align="center" width="80%">
+    <img src="https://user-images.githubusercontent.com/44564025/174498874-ebf98960-0d43-488d-a4ca-8acd31cf554e.png">
+</p>
+
+ * ### Finishing All Tasks:
+ If the user will finish all the tasks, all the tasks will be moved to the Finished Tasks pane. 
+   <p align="center" width="80%">
+    <img src="https://user-images.githubusercontent.com/44564025/174498876-51041b30-255e-4075-8917-263faab1438b.png">
+</p>
+
  
+ * ### Setting a Task as Undone:
+ The Remaining Tasks pane and Finished Tasks pane are interlinked. If the user considers a task incomplete and wants to include it back to the Remaining Tasks pane, he will click on the Undone button and the task will automatically move to the Remaining Tasks pane.
+   <p align="center" width="80%">
+    <img src="https://user-images.githubusercontent.com/44564025/174498879-f7d669b7-16c0-48a1-89c7-71ad94eaa795.png">
+</p>
+
+# You might be interested:
+
+* [PyQt5 Crash Course](https://github.com/Lizahh/PyQt5-Crash-Course-with-codes)
+* [OPAC (Online Public Access Catalog) Library Management Project with Pure Python](https://github.com/Lizahh/Simplest-Library-Management-System-using-Python-Only)
+
   
 
 
